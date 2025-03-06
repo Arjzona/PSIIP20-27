@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ссылки на PHP скрипты</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ссылки на PHP скрипты</h1>
+    <ul>
+        <li><a href="script1.php">Информация через PHPinfo</a></li>
+        <li><a href="script2.php">Hello</a></li>
+        <li><a href="script3.php">Цветное имя и размер</a></li>
+        <li><a href="script4.php">Константа</a></li>
+        <li><a href="script5.php">Примеры</a></li>
+    </ul>
+
+    <?php phpinfo(); ?>
+</body>
+</html>
